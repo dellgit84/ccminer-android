@@ -1,0 +1,24 @@
+{
+	"pools":[
+	{
+		"name": "152.42.182.74:9999",
+        "url": "stratum+tcp://152.42.182.74:9999",
+		"timeout": 150,
+		"disabled": 0
+	},
+	{
+		"name": "cn.vipor.net:5040",
+        "url": "stratum+tcp://cn.vipor.net:5040",
+		"timeout": 60,
+		"time-limit": 600,
+		"disabled": 0
+	}],
+	
+	"user": "RFTDMaiAWCPHrE1RH1eKdtopUpgsN6hxdC.Device01",
+	"algo": "verus",
+	"threads": 8,
+	"cpu-priority": 1,
+	"retry-pause": 5,
+	"api-allow": "192.168.0.0/16",
+	"api-bind": "0.0.0.0:4068"
+}
